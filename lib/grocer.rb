@@ -24,6 +24,7 @@ item_array = []
        target_item[:count] += 1 
      else
        item[:count] = 1
+       item_array << 
   end 
 end 
       
