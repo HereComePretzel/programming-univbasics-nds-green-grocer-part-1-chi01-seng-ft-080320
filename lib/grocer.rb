@@ -20,7 +20,10 @@ def consolidate_cart(cart)
 item_array = []
   cart.each do |item|
     target_item = find_item_by_name_in_collection(item, item_array)
-    binding.pry
+     if target_item
+       target_item[:count] += 1 
+     else
+       target_item[:count] = 1
   end 
 end 
       
