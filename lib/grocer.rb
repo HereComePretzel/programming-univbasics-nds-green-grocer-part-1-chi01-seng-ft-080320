@@ -19,7 +19,7 @@ end
 def consolidate_cart(cart)
   counter = 0
   new_array = [] 
-  cart.each do |cart, contents|
+  cart.each do |item|
     binding.pry 
   end 
       
