@@ -17,14 +17,7 @@ def find_item_by_name_in_collection(name, collection)
 end 
 
 def consolidate_cart(cart)
-  counter = 0
-  new_array = [] 
-  cart.each do |item|
-    target_item = find_item_by_name_in_collection (item, new_array)
-    binding.pry 
-    end 
-  end 
-end 
+ 
       
   # Consult README for inputs and outputs
   #
