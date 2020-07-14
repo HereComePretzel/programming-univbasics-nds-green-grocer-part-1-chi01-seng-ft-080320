@@ -7,10 +7,12 @@
     { :item => "HOT SAUCE", :price => 1.75, :clearance => false}]
 
 def find_item_by_name_in_collection(name, collection)
+    counter = 0
+    output = {}
     collection.each do |name, collection|
       #binding.pry 
       if name == collection  
-        return name  
+        output >> name   
       else
         return nil 
       end 
