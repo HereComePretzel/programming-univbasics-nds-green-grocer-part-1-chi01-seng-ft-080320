@@ -21,7 +21,8 @@ def consolidate_cart(cart)
   cart[:count] = 1 
   while counter < cart.length
     if cart[counter][:item] == cart[counter][:item]
-    end 
+    end
+    counter += 1 
   end 
       
   # Consult README for inputs and outputs
