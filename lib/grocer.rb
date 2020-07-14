@@ -7,7 +7,7 @@
     { :item => "HOT SAUCE", :price => 1.75, :clearance => false}]
 
 def find_item_by_name_in_collection(name, collection)
-    name.each do |name, collection|
+    collection.each do |name, collection|
       if name == collection
         return name
       else
