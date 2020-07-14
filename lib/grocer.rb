@@ -22,6 +22,7 @@ def consolidate_cart(cart)
   cart.each do |item|
     target_item = find_item_by_name_in_collection (item, new_array)
     binding.pry 
+    end 
   end 
 end 
       
