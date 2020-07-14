@@ -18,7 +18,8 @@ end
 
 def consolidate_cart(cart)
 item_array = []
-  cart
+  cart.each do |item|
+    
       
   # Consult README for inputs and outputs
   #
