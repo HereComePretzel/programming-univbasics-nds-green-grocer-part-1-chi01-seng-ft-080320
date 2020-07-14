@@ -13,7 +13,7 @@ def find_item_by_name_in_collection(name, collection)
       if collection[counter][:item] == name   
         return collection[counter][:item]   
       else
-        return nil 
+        counter += 1
       end 
     end 
   
