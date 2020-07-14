@@ -8,8 +8,8 @@
 
 def find_item_by_name_in_collection(name, collection)
     collection.each do |name, collection|
-      if name == collection
-        return name.to_s
+      if collection == name 
+        return name
       else
         return nil 
       end 
