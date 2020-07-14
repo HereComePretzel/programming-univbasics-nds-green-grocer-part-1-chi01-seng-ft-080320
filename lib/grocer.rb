@@ -8,13 +8,14 @@
 
 def find_item_by_name_in_collection(name, collection)
     counter = 0
+    while collection < collection.length 
     collection.each do |name, collection|
-      #binding.pry 
       if collection[counter][:item] == name   
         return collection[counter][:item]   
       else
       counter += 1
       end 
+    end 
     end 
   
 
