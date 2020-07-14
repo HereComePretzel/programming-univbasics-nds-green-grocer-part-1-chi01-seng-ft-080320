@@ -8,15 +8,13 @@
 
 def find_item_by_name_in_collection(name, collection)
     counter = 0
-    output = {}
     collection.each do |name, collection|
       #binding.pry 
-      if name == collection  
-        output << name   
+      if collection[counter][:item] == name   
+        return collection[counter][:item]   
       else
         return nil 
       end 
-      binding.pry 
     end 
   
 
