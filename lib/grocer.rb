@@ -1,4 +1,4 @@
- 
+ require 'pry'
  grocery_shelf =[
     { :item => "CANNED BEANS", :price => 3.00, :clearance => true},
     { :item => "CANNED CORN", :price => 2.50, :clearance => false},
@@ -8,6 +8,7 @@
 
 def find_item_by_name_in_collection(name, collection)
     collection.each do |name, collection|
+      binding.pry 
       if collection == name 
         return name
       else
