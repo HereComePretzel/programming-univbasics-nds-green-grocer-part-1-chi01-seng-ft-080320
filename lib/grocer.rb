@@ -19,10 +19,8 @@ end
 def consolidate_cart(cart)
   counter = 0
   new_array = [] 
-  while counter < cart.length
-    if cart[counter][:item] == cart[counter][:item]
-    end
-    counter += 1 
+  cart.each do |cart, contents|
+    binding.pry 
   end 
       
   # Consult README for inputs and outputs
