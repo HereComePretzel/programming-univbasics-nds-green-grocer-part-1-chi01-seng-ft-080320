@@ -7,14 +7,9 @@
     { :item => "HOT SAUCE", :price => 1.75, :clearance => false}]
 
 def find_item_by_name_in_collection(name, collection)
-    counter = 0
-    while counter < collection.length 
-      if collection[counter][:item] == name
-        return [collection][counter]
-      end 
-      counter +=1
-    end 
-  end 
+  counter = 0
+  while counter < collection.length 
+  if 
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
