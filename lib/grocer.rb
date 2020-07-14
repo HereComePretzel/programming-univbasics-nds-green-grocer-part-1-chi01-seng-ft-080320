@@ -27,6 +27,7 @@ item_array = []
        item_array << item 
   end 
 end 
+return item_array
       
   # Consult README for inputs and outputs
   #
