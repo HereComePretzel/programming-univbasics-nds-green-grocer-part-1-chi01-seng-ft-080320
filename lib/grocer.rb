@@ -19,7 +19,10 @@ end
 def consolidate_cart(cart)
 item_array = []
   cart.each do |item|
-    
+    target_item = find_item_by_name_in_collection(item, item_array)
+    binding.pry
+  end 
+end 
       
   # Consult README for inputs and outputs
   #
