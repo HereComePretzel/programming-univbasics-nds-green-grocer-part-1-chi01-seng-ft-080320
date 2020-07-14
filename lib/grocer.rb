@@ -12,7 +12,7 @@ def find_item_by_name_in_collection(name, collection)
     collection.each do |name, collection|
       #binding.pry 
       if name == collection  
-        output >> name   
+        output << name   
       else
         return nil 
       end 
