@@ -8,11 +8,12 @@
 
 def find_item_by_name_in_collection(name, collection)
     collection.each do |name, collection|
-      binding.pry 
+      #binding.pry 
       if collection == name 
         return name  
       else
         return nil 
+        binding.pry
       end 
     end 
   
