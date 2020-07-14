@@ -9,6 +9,7 @@
 def find_item_by_name_in_collection(name, collection)
     name.each do |name, collection|
       return name 
+    end 
   
 
   # Implement me first!
