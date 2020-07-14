@@ -23,7 +23,7 @@ item_array = []
      if target_item
        target_item[:count] += 1 
      else
-       target_item[:count] = 1
+       item[:count] = 1
   end 
 end 
       
