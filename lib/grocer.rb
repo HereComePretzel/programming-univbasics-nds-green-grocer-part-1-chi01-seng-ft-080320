@@ -23,6 +23,7 @@ def consolidate_cart(cart)
     target_item = find_item_by_name_in_collection (item, new_array)
     binding.pry 
   end 
+end 
       
   # Consult README for inputs and outputs
   #
